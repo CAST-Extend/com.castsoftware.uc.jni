@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>com.castsoftware.uc.jni</id>
+    <version>1.0.0</version>
+    <title>Technology Extension for JNI</title>
+    <authors>CAST User Community</authors>
+    <owners>CAST</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://extend.castsoftware.com/V2/Licenses/Cast-Licence-UserCommunity-1.0.html</licenseUrl>
+    <projectUrl>https://github.com/CAST-Extend/com.castsoftware.uc.jni/wiki/JNIExtension</projectUrl>
+    <iconUrl>https://github.com/CAST-Extend/com.castsoftware.uc.jni/blob/master/jni.png?raw=true</iconUrl>
+    <description>This Technology Extension provides a custom support for JNI. Designed to link Java native methods to C and C callbacks to Java methods</description>
+    <releaseNotes>https://github.com/CAST-Extend/com.castsoftware.uc.jni/wiki</releaseNotes>
+    <tags>CASTUserCommunity Framework CAIP8.3 techno:HTML techno:JEE techno:jni</tags>
+    <dependencies>
+      <dependency id="CAIP" version="8.3.3" />
+      <dependency id="com.castsoftware.wbslinker" version="1.6.9" />
+      <dependency id="com.castsoftware.internal.platform" version="0.9.6" />
+      <dependency id="com.castsoftware.html5" version="1.7.6" />    
+    </dependencies>
+  </metadata>
+</package>
